@@ -116,7 +116,8 @@ if not ON_KAGGLE:
 import pandas as pd
 import numpy as np
 import random
-from tqdm.notebook import tqdm
+# from tqdm.notebook import tqdm
+from tqdm import tqdm
 from sklearn.model_selection import KFold
 from sklearn.metrics import accuracy_score
 import gc

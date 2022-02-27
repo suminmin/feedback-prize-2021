@@ -1,12 +1,12 @@
-name: "fp_exp3"
+name: "base_longformer_exp"
 
 model_savename: "longformer"
 model_name: 'allenai/longformer-base-4096'
 
 max_length: 1024
 inference_max_length: 4096
-train_batch_size: 4
-valid_batch_size: 4
+train_batch_size: 6
+valid_batch_size: 6
 lr: 4e-5
 
 num_labels: 15

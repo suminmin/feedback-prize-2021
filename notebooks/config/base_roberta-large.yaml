@@ -5,8 +5,8 @@ model_name: 'roberta-large'
 
 max_length: 512
 inference_max_length: 512
-train_batch_size: 4
-valid_batch_size: 4
+train_batch_size: 3
+valid_batch_size: 3
 lr: 1e-5
 
 num_labels: 15
